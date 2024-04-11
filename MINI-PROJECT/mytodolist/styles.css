@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: beige;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid floralwhite;
+}
+
+textarea {
+  height: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: cornflowerblue;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+button:hover {
+  background-color: dodgerblue;
+}
+
+/* daftar catatan */
+
+#myTodo {
+  border-top: 1px solid floralwhite;
+  padding-top: 20px;
+}
+
+.list {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid floralwhite;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.list h2 {
+  margin-bottom: 5px;
+}
+
+.list p{
+    margin-bottom: 5px;
+}
+
+.list button{
+    background-color: cornflowerblue;
+}
+
+
+.list button:hover{
+    background-color: dodgerblue;
+}

@@ -1,0 +1,141 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+
+/* latihan satu */
+.konteiner_satu{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+     
+}
+
+.kolom-utama{
+    flex: 3;
+    order: 2;
+}
+
+.sidebar-satu{
+    flex: 1;
+    order: 1;
+}
+
+.sidebar-dua{
+    flex: 1;
+    order: 3;
+}
+/* latihan dua */
+
+.conteiner-dua{ 
+    max-width: 800px;
+    margin: 50px auto;
+    
+}
+
+.layanan{
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.layanan.satu{background-color: aqua;}
+.layanan.dua{background-color: rgb(0, 254, 34);}
+.layanan.tiga{background-color: rgb(255, 0, 0);}
+
+
+/* latihan 3 */
+.conteiner-tiga{
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.thumbail{
+    width: 50%;
+}
+.thumbail img{
+    width: 100%;
+}
+
+/* latihan 4 */
+.conteiner-empat{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.card{
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: #aaa;
+    overflow: hidden;
+    flex: 1;
+    margin: 10px;
+}
+
+.card .header{
+    height: 150px;
+    background-color: #666;
+}
+
+.card .content{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+
+/* latihan 5 */
+
+
+.conteiner-lima{
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    border: 5px solid black ;
+    display: flex;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+}
+
+.kotak span{
+    margin: auto;
+}
+
+/* responsive */
+
+@media( min-width: 600px)
+{
+    .conteiner-dua{
+        display: flex;
+    justify-content: space-between;
+    }
+
+    .layanan{
+        width: 30%;  
+    }
+
+    .thumbail{
+        width: 25%;
+    }
+}
